@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
+<head>
 <script src="https://code.jquery.com/jquery.min.js"></script>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
 
+
+  <!DOCTYPE html>
+<html>
 <body>
 <div class="container">
    <h1> POCKET SCHOOL</h1>
@@ -24,31 +32,253 @@
 
   </ul>
 </div>
-<img src="..." alt="You" style="width:304px;height:228px;">
+
+  <svg height="600" width="600">
+
+  <!-- head-->
+  <circle cx="200" cy="50" r="60" fill="#ffcc80" />
+
+  <!-- left arm -->
+  <line x1="200" y1="100" x2="100" y2="200" stroke-width="25" stroke="#ffcc80" stroke-linecap="round" />
+  <!-- spine -->
+  <line x1="200" y1="100" x2="200" y2="300" stroke-width="25" stroke="#ffcc80" stroke-linecap="round" />
+  <!-- right leg -->
+  <line x1="200" y1="300" x2="250" y2="400" stroke-width="25" stroke="#ffcc80" stroke-linecap="round" />
+  <!-- left leg-->
+  <line x1="200" y1="300" x2="150" y2="400" stroke-width="25" stroke="#ffcc80" stroke-linecap="round" />
+
+  <line x1="200" y1="100" x2="300" y2="200" stroke-width="25" stroke="#ffcc80" stroke-linecap="round" />
+
+  <!--face-->
+  <!--eyes-->
+  <circle cx="170" cy="20" r="10" fill="white" />
+  <circle cx="230" cy="20" r="10" fill="white" />
+  <circle cx="170" cy="20" r="6" fill="black" />
+  <circle cx="230" cy="20" r="6" fill="black" />
+  <!-- nose-->
+  <line x1="200" y1="40" x2="200" y2="60" stroke-width="15" stroke="#ffe0b2" stroke-linecap="round" />
+
+  <!--mouth-->
+
+  <line x1="170" y1="70" x2="200" y2="90" stroke-width="15" stroke="#ff5252" stroke-linecap="round" />
+  <line x1="205" y1="90" x2="235" y2="70" stroke-width="15" stroke="#ff5252" stroke-linecap="round" />
+
+
+
+
+
+  <g id="coat" visibility="hidden">
+
+    <!-- sleeves -->
+
+    <line x1="200" y1="100" x2="100" y2="200" stroke-width="32" stroke="#3949AB" stroke-linecap="square" />
+
+    <line x1="200" y1="100" x2="300" y2="200" stroke-width="32" stroke="#3949AB" stroke-linecap="square" />
+
+
+
+
+    <!-- shirt-->
+    <polygon points="156,120 237,120 237,330 156,330" fill="#3949AB" />
+
+    <!-- buttons-->
+    <circle cx="200" cy="290" r="10" fill="brown" />
+    <circle cx="200" cy="260" r="10" fill="brown" />
+    <circle cx="200" cy="230" r="10" fill="brown" />
+    <circle cx="200" cy="200" r="10" fill="brown" />
+<!--face-->
+    <circle cx="200" cy="50" r="60" fill="#ffcc80" />
+  <!--eyes-->
+  <circle cx="170" cy="20" r="10" fill="white" />
+  <circle cx="230" cy="20" r="10" fill="white" />
+  <circle cx="170" cy="20" r="6" fill="black" />
+  <circle cx="230" cy="20" r="6" fill="black" />
+  <!-- nose-->
+  <line x1="200" y1="40" x2="200" y2="60" stroke-width="15" stroke="#ffe0b2" stroke-linecap="round" />
+
+  <!--mouth-->
+
+  <line x1="170" y1="70" x2="200" y2="90" stroke-width="15" stroke="#ff5252" stroke-linecap="round" />
+  <line x1="205" y1="90" x2="235" y2="70" stroke-width="15" stroke="#ff5252" stroke-linecap="round" />
+
+
+  </g>
+
+  <g id="dance" visibility="hidden">
+
+    <!-- sleeves -->
+
+    <line x1="222" y1="122" x2="250" y2="149" stroke-width="32" stroke="#212121" stroke-linecap="square" />
+
+    <line x1="177" y1="122" x2="150" y2="149" stroke-width="32" stroke="#212121" stroke-linecap="square" />
+
+    <!-- collar -->
+    <polygon fill="#212121" points="177,100 222,100 200,125" />
+
+
+    <!-- shirt-->
+    <polygon points="156,120 237,120 237,300 156,300" fill="#212121" />
+
+
+      <!-- right leg -->
+  <line x1="200" y1="300" x2="250" y2="400" stroke-width="25" stroke="#212121" stroke-linecap="round" />
+  <!-- left leg-->
+  <line x1="200" y1="300" x2="150" y2="400" stroke-width="25" stroke="#212121" stroke-linecap="round" />
+
+  </g>
+
+  <g id="p_e_kit" visibility="hidden">
+
+
+    <!-- sleeves -->
+
+    <line x1="222" y1="122" x2="250" y2="149" stroke-width="32" stroke="#3F51B5" stroke-linecap="square" />
+
+    <line x1="177" y1="122" x2="150" y2="149" stroke-width="32" stroke="#3F51B5" stroke-linecap="square" />
+
+    <!-- collar -->
+    <polygon fill="#3F51B5" points="177,100 222,100 200,125" />
+
+
+    <!-- shirt-->
+    <polygon points="156,120 237,120 237,300 156,300" fill="#3F51B5" />
+
+
+    <!-- pe kit -->
+
+
+    <circle cx="300" cy="300" r="60" fill="orange" />
+
+
+  </g>
+
+
+  <g id="math" visibility="hidden">
+    <!--calculater-->
+    <line x1="300" y1="210" x2="300" y2="160" stroke-width="25" stroke="grey" />
+    <!--screen-->
+    <line x1="300" y1="169" x2="300" y2="162" stroke-width="21" stroke="purple" />
+    <!--on/off-->
+    <line x1="290" y1="175" x2="293" y2="175" stroke-width="3" stroke="green" />
+  </g>
+
+
+</svg>
+
 
 </div>
 
  <div class="container">
-  <button type="button" class="btn btn-primary">rain</button>
+  <button type="button" class="btn btn-primary" onclick="javascript:changeClothes('rain');">rain</button>
 
 
-<button type="button" class="btn btn-primary">p.e kit </button>
+
+<button type="button" class="btn btn-primary" onclick="javascript:changeClothes('p_e_kit');">p.e kit</button>
 
 
-<button type="button" class="btn btn-primary">dance</button>
+<button type="button" class="btn btn-primary" onclick="javascript:changeClothes('dance');">dance</button>
 
 
-  <button type="button" class="btn btn-primary">warm</button>
+
+  <button type="button" class="btn btn-primary" onclick="javascript:changeClothes('warm');">warm</button>
 
 
-   <button type="button" class="btn btn-primary">maths</button>
 
-     <button type="button" class="btn btn-primary">cold</button>
+   <button type="button" class="btn btn-primary" onclick="javascript:changeClothes('math');">maths</button>
+
+     <button type="button" class="btn btn-primary" onclick="javascript:changeClothes('cold');">cold</button>
 
 
-   <button type="button" class="btn btn-primary">you</button>
+   <button type="button" class="btn btn-primary" onclick="javascript:changeClothes('you');">you</button>
 
+    </g>
 </body>
-</html>
 
-  </html>
+<script>
+
+
+//all variables
+//1 -> add in all variables
+var coat = $("#coat");
+var p_e_kit = $("#p_e_kit");
+var dance = $("#dance");
+var math = $("#math");
+
+function changeClothes(buttonPushed) {
+
+  //2. add in all the different buttons you can push
+  //make sure you hide things you don't want anymore
+
+  if (buttonPushed == "rain") {
+    console.log("hello");
+    //show coat -> hide everything else!
+    coat.attr("visibility", "visible");
+    p_e_kit.attr("visibility", "hidden");
+    dance.attr("visibility", "hidden");
+    math.attr("visibility", "hidden");
+
+
+  }
+
+
+
+  if (buttonPushed == "p_e_kit") {
+    //show coat -> hide everything else!
+    p_e_kit.attr("visibility", "visible");
+    coat.attr("visibility", "hidden");
+    dance.attr("visibility", "hidden");
+    math.attr("visibility", "hidden");
+
+
+
+  }
+
+
+
+
+  if (buttonPushed == "dance") {
+    //show coat -> hide everything else!
+    dance.attr("visibility", "visible");
+    p_e_kit.attr("visibility", "hidden");
+    coat.attr("visibility", "hidden");
+    math.attr("visibility", "hidden");
+  }
+
+
+
+  if (buttonPushed == "warm") {
+    //show coat -> hide everything else!
+    coat.attr("visibility", "visible");
+    p_e_kit.attr("visibility", "hidden");
+    dance.attr("visibility", "hidden");
+    math.attr("visibility", "hidden");
+  }
+
+  if (buttonPushed == "math") {
+    //show coat -> hide everything else!
+    math.attr("visibility", "visible");
+    p_e_kit.attr("visibility", "hidden");
+    coat.attr("visibility", "visible");
+    dance.attr("visibility", "hidden");
+  }
+
+  if (buttonPushed == "cold") {
+    //show coat -> hide everything else!
+    coat.attr("visibility", "visible");
+    p_e_kit.attr("visibility", "hidden");
+    dance.attr("visibility", "hidden");
+    math.attr("visibility", "hidden");
+  }
+
+  if (buttonPushed == "you") {
+    //show coat -> hide everything else!
+    p_e_kit.attr("visibility", "hidden");
+    dance.attr("visibility", "hidden");
+    math.attr("visibility", "hidden");
+    coat.attr("visibility", "hidden");
+  }
+
+
+}
+</script>
+</html>
